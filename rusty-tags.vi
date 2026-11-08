@@ -1,0 +1,192 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+Brake	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Brake,$/;"	e	enum:MotorBrakeMode
+Brake	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Brake,$/;"	e	enum:MotorControlMode
+Coast	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Coast,$/;"	e	enum:MotorBrakeMode
+ControllerConnection	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub enum ControllerConnection {$/;"	g
+ControllerInput	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub struct ControllerInput {$/;"	s
+ControllerState	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^impl ControllerState {$/;"	c
+ControllerState	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub struct ControllerState {$/;"	s
+DCMotorSim	/share/program/vrc/motor_sim/src/main.rs	/^impl DCMotorSim {$/;"	c
+DCMotorSim	/share/program/vrc/motor_sim/src/main.rs	/^struct DCMotorSim {$/;"	s
+DISPLAY_BUF_SIZE	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^pub const DISPLAY_BUF_SIZE: usize = DISPLAY_WIDTH as usize * DISPLAY_HEIGHT as usize;$/;"	C
+DISPLAY_HEIGHT	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^pub const DISPLAY_HEIGHT: u32 = 272;$/;"	C
+DISPLAY_UPDATE_PERIOD	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^pub static DISPLAY_UPDATE_PERIOD: LazyLock<Duration> =$/;"	v
+DISPLAY_WIDTH	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^pub const DISPLAY_WIDTH: u32 = 480;$/;"	C
+DataLoan	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^    DataLoan(#[from] LoanError),$/;"	e	enum:RoboscopeIpcError
+DeviceCommand	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^pub enum DeviceCommand {$/;"	g
+DeviceReadings	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^impl DeviceReadings {$/;"	c
+DeviceReadings	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub struct DeviceReadings {$/;"	s
+DeviceSnapshot	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^impl DeviceSnapshot {$/;"	c
+DeviceSnapshot	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub enum DeviceSnapshot {$/;"	g
+DisplayFrame	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^pub struct DisplayFrame {$/;"	s
+DisplayInput	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^pub struct DisplayInput {$/;"	s
+DisplayInputKind	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^pub enum DisplayInputKind {$/;"	g
+Distance	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    Distance(DistanceSnapshot),$/;"	e	enum:DeviceSnapshot
+DistanceSnapshot	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^impl Default for DistanceSnapshot {$/;"	c
+DistanceSnapshot	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub struct DistanceSnapshot {$/;"	s
+Empty	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Empty,$/;"	e	enum:DeviceCommand
+Empty	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    Empty,$/;"	e	enum:DeviceSnapshot
+Error	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    type Error = ();$/;"	t	implementation:MotorBrakeMode
+Error	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    type Error = ();$/;"	t	implementation:MotorControlMode
+Error	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    type Error = ();$/;"	t	implementation:V5MotorControlMode
+Generic	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    Generic(GenericSnapshot),$/;"	e	enum:DeviceSnapshot
+GenericSnapshot	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub struct GenericSnapshot {$/;"	s
+Hold	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Hold,$/;"	e	enum:MotorBrakeMode
+Hold	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Hold,$/;"	e	enum:MotorControlMode
+Hold	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^    Hold,$/;"	e	enum:DisplayInputKind
+Io	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^    Io(#[from] io::Error),$/;"	e	enum:RoboscopeIpcError
+J	/share/program/vrc/motor_sim/src/main.rs	/^    J: f32,$/;"	m	struct:DCMotorSim
+JoystickState	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub struct JoystickState {$/;"	s
+L	/share/program/vrc/motor_sim/src/main.rs	/^    L: f32,$/;"	m	struct:DCMotorSim
+MOTOR_TICKS_PER_ROTATION	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub const MOTOR_TICKS_PER_ROTATION: usize = 4096;$/;"	C
+Motor	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Motor(MotorCommand),$/;"	e	enum:DeviceCommand
+Motor	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    Motor(MotorSnapshot),$/;"	e	enum:DeviceSnapshot
+MotorBrakeMode	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^impl TryFrom<V5MotorBrakeMode> for MotorBrakeMode {$/;"	c
+MotorBrakeMode	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^pub enum MotorBrakeMode {$/;"	g
+MotorCommand	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^pub struct MotorCommand {$/;"	s
+MotorControlMode	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^impl TryFrom<V5MotorControlMode> for MotorControlMode {$/;"	c
+MotorControlMode	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^pub enum MotorControlMode {$/;"	g
+MotorFaults	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub struct MotorFaults(pub u32);$/;"	s
+MotorGearset	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^impl MotorGearset {$/;"	c
+MotorGearset	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^pub enum MotorGearset {$/;"	g
+MotorSnapshot	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub struct MotorSnapshot {$/;"	s
+MotorStatus	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^pub struct MotorStatus(pub u32);$/;"	s
+Off	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Off,$/;"	e	enum:MotorControlMode
+Offline	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    Offline = 0,$/;"	e	enum:ControllerConnection
+PHYSICS_UPDATE_PERIOD	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub const PHYSICS_UPDATE_PERIOD: Duration = Duration::from_millis(10);$/;"	C
+Position	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Position = 4,$/;"	e	enum:MotorControlMode
+Press	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^    Press,$/;"	e	enum:DisplayInputKind
+PubSubFactory	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub type PubSubFactory<T> =$/;"	t
+PublishService	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^    PublishService(#[from] PublisherCreateError),$/;"	e	enum:RoboscopeIpcError
+Publisher	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub type Publisher<T> = iceoryx2::port::publisher::Publisher<ipc::Service, T, ()>;$/;"	t
+Pwm	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Pwm,$/;"	e	enum:MotorControlMode
+R	/share/program/vrc/motor_sim/src/main.rs	/^    R: f32,$/;"	m	struct:DCMotorSim
+Ratio06To1	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Ratio06To1,$/;"	e	enum:MotorGearset
+Ratio18To1	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Ratio18To1,$/;"	e	enum:MotorGearset
+Ratio36To1	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Ratio36To1,$/;"	e	enum:MotorGearset
+Receive	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^    Receive(#[from] ReceiveError),$/;"	e	enum:RoboscopeIpcError
+Release	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^    Release,$/;"	e	enum:DisplayInputKind
+RoboscopeIpcError	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^pub enum RoboscopeIpcError {$/;"	g
+RobotOutputs	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^pub struct RobotOutputs(pub [DeviceCommand; SMART_DEVICES_COUNT]);$/;"	s
+SMART_DEVICES_COUNT	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub const SMART_DEVICES_COUNT: usize = 21;$/;"	C
+Sample	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub type Sample<T> = iceoryx2::sample::Sample<ipc::Service, T, ()>;$/;"	t
+SendError	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^    SendError(#[from] SendError),$/;"	e	enum:RoboscopeIpcError
+SetupNode	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^    SetupNode(#[from] NodeCreationFailure),$/;"	e	enum:RoboscopeIpcError
+SetupService	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^    SetupService(#[from] PublishSubscribeOpenOrCreateError),$/;"	e	enum:RoboscopeIpcError
+SimResult	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^pub type SimResult<T> = Result<T, RoboscopeIpcError>;$/;"	t
+SimServices	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^impl SimServices {$/;"	c
+SimServices	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub struct SimServices {$/;"	s
+SubscribeService	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/error.rs	/^    SubscribeService(#[from] SubscriberCreateError),$/;"	e	enum:RoboscopeIpcError
+Subscriber	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub type Subscriber<T> = iceoryx2::port::subscriber::Subscriber<ipc::Service, T, ()>;$/;"	t
+Tethered	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    Tethered = 1,$/;"	e	enum:ControllerConnection
+V5MotorBrakeMode	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^impl From<MotorBrakeMode> for V5MotorBrakeMode {$/;"	c
+V5MotorControlMode	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^impl TryFrom<MotorControlMode> for V5MotorControlMode {$/;"	c
+Velocity	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    Velocity,$/;"	e	enum:MotorControlMode
+Vexnet	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    Vexnet = 2,$/;"	e	enum:ControllerConnection
+_new	/share/program/vrc/motor_sim/src/main.rs	/^    fn _new(J: f32, b: f32, kt: f32, ke: f32, R: f32, L: f32, gear_ratio: f32) -> Self {$/;"	P	implementation:DCMotorSim
+_step	/share/program/vrc/motor_sim/src/main.rs	/^    fn _step(&mut self, voltage: f32) {$/;"	P	implementation:DCMotorSim
+applied_voltage	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub applied_voltage: i32,$/;"	m	struct:MotorSnapshot
+b	/share/program/vrc/motor_sim/src/main.rs	/^    b: f32,$/;"	m	struct:DCMotorSim
+battery_capacity	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub battery_capacity: u8,$/;"	m	struct:ControllerState
+battery_level	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub battery_level: u16,$/;"	m	struct:ControllerState
+blue	/share/program/vrc/motor_sim/src/main.rs	/^    fn blue(J: f32, b: f32, kt: f32, ke: f32, R: f32, L: f32) -> Self {$/;"	P	implementation:DCMotorSim
+brake_mode	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub brake_mode: MotorBrakeMode,$/;"	m	struct:MotorCommand
+buffer	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^    pub buffer: [u32; DISPLAY_BUF_SIZE],$/;"	m	struct:DisplayFrame
+button_a	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_a: bool,$/;"	m	struct:ControllerState
+button_b	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_b: bool,$/;"	m	struct:ControllerState
+button_down	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_down: bool,$/;"	m	struct:ControllerState
+button_l1	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_l1: bool,$/;"	m	struct:ControllerState
+button_l2	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_l2: bool,$/;"	m	struct:ControllerState
+button_left	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_left: bool,$/;"	m	struct:ControllerState
+button_power	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_power: bool,$/;"	m	struct:ControllerState
+button_r1	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_r1: bool,$/;"	m	struct:ControllerState
+button_r2	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_r2: bool,$/;"	m	struct:ControllerState
+button_right	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_right: bool,$/;"	m	struct:ControllerState
+button_up	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_up: bool,$/;"	m	struct:ControllerState
+button_x	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_x: bool,$/;"	m	struct:ControllerState
+button_y	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub button_y: bool,$/;"	m	struct:ControllerState
+cmd	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub mod cmd;$/;"	n
+confidence	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub confidence: u32,$/;"	m	struct:DistanceSnapshot
+connect_to_serial_device	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn connect_to_serial_device(port_idx: usize) -> io::Result<Socket> {$/;"	P	implementation:SimServices
+connected	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub const fn connected(self) -> bool {$/;"	P	implementation:ControllerState
+connection	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub connection: ControllerConnection,$/;"	m	struct:ControllerState
+controller_input	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn controller_input(&self) -> SimResult<PubSubFactory<snapshot::ControllerInput>> {$/;"	P	implementation:SimServices
+create_serial_device	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn create_serial_device(port_idx: usize) -> io::Result<Socket> {$/;"	P	implementation:SimServices
+current	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub current: i32,$/;"	m	struct:MotorSnapshot
+current_limit	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub current_limit: i32,$/;"	m	struct:MotorCommand
+custom	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn custom(name: Option<&str>, mut node: NodeBuilder) -> SimResult<Self> {$/;"	P	implementation:SimServices
+default	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    fn default() -> Self {$/;"	P	implementation:DistanceSnapshot
+device_cmds	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn device_cmds(&self) -> SimResult<PubSubFactory<cmd::RobotOutputs>> {$/;"	P	implementation:SimServices
+device_readings	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn device_readings(&self) -> SimResult<PubSubFactory<snapshot::DeviceReadings>> {$/;"	P	implementation:SimServices
+display	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub mod display;$/;"	n
+display_frames	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn display_frames(&self) -> SimResult<PubSubFactory<DisplayFrame>> {$/;"	P	implementation:SimServices
+display_input	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn display_input(&self) -> SimResult<PubSubFactory<DisplayInput>> {$/;"	P	implementation:SimServices
+distance	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub distance: u32,$/;"	m	struct:DistanceSnapshot
+efficiency	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub efficiency: f64,$/;"	m	struct:MotorSnapshot
+error	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub mod error;$/;"	n
+faults	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub faults: MotorFaults,$/;"	m	struct:MotorSnapshot
+flags	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub flags: MotorStatus,$/;"	m	struct:MotorSnapshot
+fn	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub const fn multiplier(self) -> f64 {$/;"	C	implementation:MotorGearset
+fn	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub const fn new(gearset: V5MotorGearset) -> Option<Self> {$/;"	C	implementation:MotorGearset
+fn	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub const fn to_v5(self) -> V5MotorGearset {$/;"	C	implementation:MotorGearset
+fn	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub const fn connected(self) -> bool {$/;"	C	implementation:ControllerState
+from	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    fn from(value: MotorBrakeMode) -> Self {$/;"	P	implementation:V5MotorBrakeMode
+gear_ratio	/share/program/vrc/motor_sim/src/main.rs	/^    gear_ratio: f32,$/;"	m	struct:DCMotorSim
+gearset	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub gearset: MotorGearset,$/;"	m	struct:MotorCommand
+green	/share/program/vrc/motor_sim/src/main.rs	/^    fn green(J: f32, b: f32, kt: f32, ke: f32, R: f32, L: f32) -> Self {$/;"	P	implementation:DCMotorSim
+i	/share/program/vrc/motor_sim/src/main.rs	/^    i: f32,$/;"	m	struct:DCMotorSim
+join	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn join(name: Option<&str>, config: &Config) -> SimResult<Self> {$/;"	P	implementation:SimServices
+ke	/share/program/vrc/motor_sim/src/main.rs	/^    ke: f32,$/;"	m	struct:DCMotorSim
+kind	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^    pub kind: DisplayInputKind,$/;"	m	struct:DisplayInput
+kind	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub fn kind(&self) -> V5_DeviceType {$/;"	P	implementation:DeviceSnapshot
+kt	/share/program/vrc/motor_sim/src/main.rs	/^    kt: f32,$/;"	m	struct:DCMotorSim
+left_stick	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub left_stick: JoystickState,$/;"	m	struct:ControllerState
+main	/share/program/vrc/motor_sim/src/main.rs	/^fn main() {$/;"	f
+mode	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub mode: MotorControlMode,$/;"	m	struct:MotorCommand
+multiplier	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub const fn multiplier(self) -> f64 {$/;"	P	implementation:MotorGearset
+new	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub const fn new(gearset: V5MotorGearset) -> Option<Self> {$/;"	P	implementation:MotorGearset
+node	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub node: Node<ipc::Service>,$/;"	m	struct:SimServices
+object_size	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub object_size: i32,$/;"	m	struct:DistanceSnapshot
+object_velocity	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub object_velocity: f64,$/;"	m	struct:DistanceSnapshot
+omega	/share/program/vrc/motor_sim/src/main.rs	/^    omega: f32,$/;"	m	struct:DCMotorSim
+partner	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub partner: ControllerState,$/;"	m	struct:ControllerInput
+power	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub power: f64,$/;"	m	struct:MotorSnapshot
+press_count	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^    pub press_count: u32,$/;"	m	struct:DisplayInput
+prev_time	/share/program/vrc/motor_sim/src/main.rs	/^    prev_time: Instant,$/;"	m	struct:DCMotorSim
+primary	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub primary: ControllerState,$/;"	m	struct:ControllerInput
+pub_sub	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    fn pub_sub<T: Debug + ZeroCopySend>(&self, name: &str) -> SimResult<PubSubFactory<T>> {$/;"	P	implementation:SimServices
+publish_device_readings	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn publish_device_readings($/;"	P	implementation:SimServices
+publish_display	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub unsafe fn publish_display($/;"	P	implementation:SimServices
+pwm	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub pwm: i32,$/;"	m	struct:MotorCommand
+pwm	/share/program/vrc/motor_sim/src/main.rs	/^    pwm: i32$/;"	m	struct:DCMotorSim
+raw_position	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub raw_position: i32,$/;"	m	struct:MotorSnapshot
+raw_velocity	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub raw_velocity: i32,$/;"	m	struct:MotorSnapshot
+readings	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub fn readings<T>(&self) -> Option<&T>$/;"	P	implementation:DeviceSnapshot
+readings_mut	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub fn readings_mut<T>(&mut self) -> Option<&mut T>$/;"	P	implementation:DeviceSnapshot
+red	/share/program/vrc/motor_sim/src/main.rs	/^    fn red(J: f32, b: f32, kt: f32, ke: f32, R: f32, L: f32) -> Self {$/;"	P	implementation:DCMotorSim
+release_count	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^    pub release_count: u32,$/;"	m	struct:DisplayInput
+right_stick	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub right_stick: JoystickState,$/;"	m	struct:ControllerState
+scan_motor	/share/program/vrc/motor_sim/src/main.rs	/^fn scan_motor(port: usize, cmds: &Option<&RobotOutputs>, sim_motor: &mut DCMotorSim) -> MotorSna/;"	f
+serial_path	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    fn serial_path(port_idx: usize) -> PathBuf {$/;"	P	implementation:SimServices
+snapshot	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^pub mod snapshot;$/;"	n
+snapshots	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub snapshots: [DeviceSnapshot; SMART_DEVICES_COUNT],$/;"	m	struct:DeviceReadings
+status	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub status: u32,$/;"	m	struct:DistanceSnapshot
+step_rotations	/share/program/vrc/motor_sim/src/main.rs	/^    fn step_rotations(&mut self, voltage: f32) -> (f32, f32) {$/;"	P	implementation:DCMotorSim
+stream_display	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/lib.rs	/^    pub fn stream_display(&self, mut cb: impl FnMut(&DisplayFrame)) -> SimResult<()> {$/;"	P	implementation:SimServices
+system_time	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub fn system_time(&self) -> SystemTime {$/;"	P	implementation:DeviceReadings
+target_position	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub target_position: i32,$/;"	m	struct:MotorCommand
+target_velocity	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub target_velocity: i32,$/;"	m	struct:MotorCommand
+temperature	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub temperature: i32,$/;"	m	struct:MotorSnapshot
+theta	/share/program/vrc/motor_sim/src/main.rs	/^    theta: f32,$/;"	m	struct:DCMotorSim
+timestamp	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub timestamp: u64,$/;"	m	struct:DeviceReadings
+to_v5	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    pub const fn to_v5(self) -> V5MotorGearset {$/;"	P	implementation:MotorGearset
+torque	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub torque: f64,$/;"	m	struct:MotorSnapshot
+try_from	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    fn try_from(value: MotorControlMode) -> Result<Self, Self::Error> {$/;"	P	implementation:V5MotorControlMode
+try_from	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    fn try_from(value: V5MotorBrakeMode) -> Result<Self, Self::Error> {$/;"	P	implementation:MotorBrakeMode
+try_from	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/cmd.rs	/^    fn try_from(value: V5MotorControlMode) -> Result<Self, Self::Error> {$/;"	P	implementation:MotorControlMode
+value	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub value: i32,$/;"	m	struct:GenericSnapshot
+x	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^    pub x: i16,$/;"	m	struct:DisplayInput
+x_raw	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub x_raw: i8,$/;"	m	struct:JoystickState
+y	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/display.rs	/^    pub y: i16,$/;"	m	struct:DisplayInput
+y_raw	/home/me/.cargo/git/checkouts/roboscope-264b3d4068d18e4a/4dd2613/ipc/src/snapshot.rs	/^    pub y_raw: i8,$/;"	m	struct:JoystickState

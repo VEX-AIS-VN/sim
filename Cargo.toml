@@ -1,0 +1,7 @@
+[package]
+name = "motor_sim"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+roboscope-ipc = { git = "https://github.com/vexide/roboscope", version = "0.1.0" }
